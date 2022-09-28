@@ -1,0 +1,238 @@
+ body{
+	font-family: sans-serif;
+	margin: 0;
+	background-color: #2F2F2F;
+}
+header{
+	display: flex;
+	height: 90px;
+	background-color: #131313 ;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	font
+}
+
+#navegacion{
+	background: #131313; 
+	margin-top: 70px;
+}
+
+#navegacion a{
+	font-weight: 600;
+	padding-right: 10px;
+	text-decoration: none;
+	color: gold;
+}
+
+#navegacion a:hover{
+	color: brown;
+}
+
+@media(max-width:700px){
+	header{
+		flex-direction: column;
+	}
+	nav{
+		padding: 10px 0px;
+	}
+}
+
+#texto{
+	text-align:	center;
+	font-family: fantasy;
+	font-size: xx-large;
+	margin-top: 70px;
+	color: gold;
+}
+
+#texto1{
+	text-align:	center;
+	font-size: x-large;
+	margin-top: 50px;
+	font-weight: bold;
+	color: gold;
+}
+#texto2{
+	text-align:	center;
+	font-size: x-large;
+	margin-top: 70px;
+	font-weight: bold;
+	color: goldenrod ;
+}
+#texto3{
+	font-size: x-large;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 15px;
+	color: goldenrod;
+}
+#texto4{
+	font-size: xx-large;
+	font-family: initial;
+	font-weight: bold;
+	color: gold;
+	margin: auto;
+	margin-top: 70px;
+}
+#texto5{
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	color: gold;
+	margin: auto;
+	padding: 10px;
+}
+#texto6{
+	text-align: center;
+	font-size: x-large;
+	color: blue;
+	font-weight: bold;
+}
+#mv{
+	text-align: center;
+	font-size: xx-large;
+	color: red;
+	font-weight: bold;
+	margin-top: 50px;
+}
+#cuerpoMenu{
+ 	width: 500px;
+ 	height: 700px;
+ 	background-color: blue;
+ 	margin:  auto;
+ 	margin-top: 80px;
+ 	text-align: center;
+ 	border:1px solid black;
+}
+#general{
+	width:90%;
+	height:950px;
+	margin:auto;
+}
+
+#caja1{
+	width:300px;
+	height: 380px;
+	float: right;
+	margin-right: 75px;
+	margin-top: 30px;
+
+}
+#caja2{
+	width:300px;
+	height: 300px;
+	padding: 0;
+	float: right;
+	margin-right: 200px;
+	margin-top: 10px;
+
+}
+#caja3{
+	height: 50px;
+	background-color: #131313;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+#btnOrdenar{
+	width: 150px;
+	font-family: Arial, Helvetica , sans-serif;
+	font-weight: 700;
+	background-color: #131313;
+	border-radius: 10px;
+	padding: 15px 30px;
+	margin: -20px 160px;
+	color: gold;
+	text-decoration: none;
+}
+#btnOrdenar:hover{
+	background-color: transparent;
+	border: rgb(127, 206, 255);
+	color: gold;
+
+}
+
+#hotdog1{
+	 width:800px;
+	 height:700px;
+	 background-color:#131313;
+	 margin:auto;
+	 margin-top: 50px;
+}
+
+#redes{
+	 width:500px;
+	 height:1200px;
+	 background-color:#131313;
+	 padding: 100;
+	 margin:auto;
+	 margin-top: 50px;
+}
+#rlogo{
+	width:400px;
+	height: 150px;
+	padding: 0;
+	margin: auto;
+	margin-top: 30px;
+}
+#rdes{
+	font-size: x-large;
+
+	text-decoration: none;
+	color: goldenrod;
+}
+#rdes:hover{
+	background-color: transparent;
+	color: gold;
+
+}
+#acerca1{
+	 width:800px;
+	 height:1100px;
+	 background-color:#131313;
+	 margin:auto;
+	 margin-top: 50px;
+}
+.acerca{
+	width: 500px;
+	height: 400px;
+	margin: 100px 150px;
+	border:3px solid white;
+}
+.redeslogo{
+	width:100px;
+	height: 100px;
+	background-color: transparent;
+}
+.menu{
+	width: 500px;
+	height: 700px;
+	right: 20px
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 100px;
+	margin-right: 10px;
+}
+.CartaMenu{
+	height: 300px;
+	width: 300px;
+	border:3px solid black;
+}
+.hotdog1{
+	display: flex;
+	align-items: center;
+}
+
+.hotdog1 img{
+	width: 570px;
+	height: 350px;
+	margin: auto;
+	margin-top: 80px;
+}
